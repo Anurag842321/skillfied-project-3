@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Deploy</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #00ffcc;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        .box {
+            margin-top: 40px;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            display: inline-block;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background: #00ffcc;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #00cc99;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding: 20px;
+            font-size: 14px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🚀 Docker Deploy Successful!</h1>
+        <h2>Welcome to Your DevOps Project</h2>
+
+        <p>This application is successfully deployed using Docker</p>
+
+        <div class="box">
+            <p><strong>Project:</strong> NGINX Deployment</p>
+            <p><strong>Environment:</strong> Kubernetes Cluster</p>
+            <p><strong>Status:</strong> <span style="color: #00ffcc;">Running ✅</span></p>
+        </div>
+
+        <br>
+        <button class="btn" onclick="showMessage()">Check Status</button>
+    </div>
+
+    <footer>
+        👨‍💻 Created by Anurag Mishra | DevOps Engineer 🚀
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("🎉 Your DevOps deployment is working perfectly!");
+        }
+    </script>
+
+</body>
+</html>
