@@ -86,11 +86,6 @@ Application accessible externally
 
 images/output.png
 
-⚠️ Common Issues & Fixes
-Container stops → Check CMD uses nginx -g daemon off;
-Page not loading → Check port mapping (-p 8080:80)
-External access issue → Check firewall / security group
-Wrong file path → Ensure index.html copied correctly
 🧠 Key Concepts
 🔹 Docker Image
 
